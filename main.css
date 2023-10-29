@@ -1,0 +1,321 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+.active {
+  color: white;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  overflow-x: hidden;
+  background-color: #191919;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20%;
+}
+.linksToPages {
+  width: 45%;
+  display: flex;
+  justify-content: space-between;
+}
+.Buttons {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+nav {
+  height: 8vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0px 4px 4px rgba(2, 2, 2, 0.2);
+}
+a {
+  cursor: pointer;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  color: #858585;
+  font-weight: 700;
+}
+a:hover {
+  background-color: white;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+h1 {
+  width: 100%;
+  font-size: 60px;
+  text-align: start;
+  font-family: "Ysabeau Infant", sans-serif;
+  font-weight: 900;
+  color: white;
+}
+h3 {
+  color: white;
+  font-size: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+/* Style the paragraph */
+h2 {
+  font-size: 1.2rem;
+  font-family: "Ysabeau Infant", sans-serif;
+  width: 88%;
+  text-align: start;
+  font-weight: bolder;
+  font-size: 22px;
+  color: #858585;
+  background-clip: text;
+}
+.MainHeading {
+  height: 57vh;
+  grid-gap: 25px;
+  width: 80%;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 1%;
+}
+h3 {
+  font-family: "Ysabeau Infant", sans-serif;
+  font-size: 25px;
+  font-weight: 100;
+  cursor: pointer;
+}
+
+input {
+  cursor: pointer;
+}
+input:hover {
+  background-color: #1d3d31;
+  color: white;
+}
+.trade {
+  background-color: #3eb489;
+  padding-left: 25px;
+  padding-right: 25px;
+  font-family: "Ysabeau Infant", sans-serif;
+  padding-top: 10px;
+  font-weight: bolder;
+  font-size: 14px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+}
+.Buttons {
+  display: flex;
+  grid-gap: 10px;
+}
+.Wallet {
+  background-color: transparent;
+  border: 1px solid #8c8686;
+  padding-left: 25px;
+  padding-right: 25px;
+  font-family: "Ysabeau Infant", sans-serif;
+  padding-top: 10px;
+  font-weight: bolder;
+  padding-bottom: 10px;
+  border-radius: 5px;
+  color: white;
+}
+.Boxes {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12vh;
+}
+.box {
+  width: 30%;
+  height: 15vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-gap: 20px;
+  flex-direction: row;
+  border: 2px solid #282828;
+  border-radius: 5px;
+  box-shadow: 0px 4px 4px rgba(2, 2, 2, 0.2);
+}
+.box-content {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+img {
+  width: 50px;
+  height: auto;
+}
+.information {
+  height: 130vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 2px solid #282828;
+  border-bottom: 2px solid #282828;
+  flex-direction: column;
+}
+.info-container {
+  flex-direction: row;
+  grid-gap: 10px;
+}
+.info {
+  height: 30vh;
+  width: 100%;
+}
+.create-ecosystem {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-direction: column;
+}
+.tokens {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 5vh;
+}
+.token {
+  width: 45%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 2px solid #2d2a2a;
+  border-radius: 5px;
+  padding: 2%;
+  height: 35vh;
+  flex-direction: column;
+  box-shadow: 4px 4px 4px rgba(2, 2, 2, 0.2);
+}
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-gap: 30px;
+  flex-direction: column;
+  height: 30vh;
+  width: 80%;
+}
+footer img {
+  width: 30px;
+  height: auto;
+}
+.text,
+.logos {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 35%;
+}
+.logos {
+  width: 40%;
+}
+p {
+  color: #858585;
+  font-size: 18px;
+  font-family: "Ysabeau Infant", sans-serif;
+  font-weight: bolder;
+}
+.RomiLogo {
+  width: 60px;
+  height: auto;
+}
+
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+/* for DashBoard Page */
+
+.DashBoard {
+  padding-top: 5%;
+  width: 80%;
+  height: 250vh;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  grid-gap: 1%;
+  flex-direction: column;
+}
+table {
+  width: 49%;
+  border: 2px solid #616161;
+  height: 48vh;
+  background-color: #111111;
+}
+th {
+  text-align: left;
+  border-bottom: 2px solid #858585;
+  font-family: "Ysabeau Infant", sans-serif;
+  font-weight: bolder;
+  color: white;
+  width: auto;
+  text-align: left;
+  height: 10%;
+  font-size: 20px;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+.tables {
+  margin-top: 5%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+td {
+  color: #a39e9e;
+  font-family: "Ysabeau Infant", sans-serif;
+  font-size: 15px;
+  font-weight: 900;
+  padding-left: 4%;
+  padding-right: 4%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+/* Add your custom CSS styles here */
+
+.chart-container {
+  width: 300px;
+  height: 300px;
+  margin: 20px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: inline-block;
+}
+
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+.ZLP {
+  width: 100%;
+  height: 65vh;
+}
+td {
+  text-align: left;
+}
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+/* for DashBoard Page */
+.Earn {
+  padding-top: 3%;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
